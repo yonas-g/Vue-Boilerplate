@@ -4,7 +4,7 @@ import App from './App.vue'
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
     routes: [
         {
             path: '/',
@@ -20,3 +20,16 @@ export default new Router({
         // }
     ]
 })
+
+router.beforeResolve((to, from, next) => {
+    if (to.name) {
+        NProgress.start()
+    }
+    next()
+})
+
+router.afterEach((to, from) => {
+    NProgress.done()
+})
+
+export default router;
