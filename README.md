@@ -1,8 +1,12 @@
-# vue-boilerplate
-#Vue-Boilerplate
+# Vue-Boilerplate
+
 Simple Vue Boilerplate which contains Vuex state manager and Vue-router
 
 ## Project setup
+
+```
+git clone https://github.com/yonas-g/Vue-Boilerplate.git
+```
 ```
 npm install
 ```
@@ -27,5 +31,5 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
+### Customize configuration (vue cli)
 See [Configuration Reference](https://cli.vuejs.org/config/).
