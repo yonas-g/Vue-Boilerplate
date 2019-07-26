@@ -31,5 +31,5 @@ npm run test
 npm run lint
 ```
 
-### Customize configuration
+### Customize configuration (vue cli)
 See [Configuration Reference](https://cli.vuejs.org/config/).
